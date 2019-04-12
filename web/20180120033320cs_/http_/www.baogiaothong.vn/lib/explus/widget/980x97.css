@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Global reset
+*****************************************************************/
+
+* {
+	margin:0; 
+	padding:0; 
+	list-style:none; 
+	outline:none; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size:12px;
+}
+img, fieldset { border: 0;}
+body { 
+	background:white; 
+	color: #666;
+}
+a { text-decoration: none;}
+p { line-height:20px;}
+ul, ol { list-style:none outside none;}
+li { display:inline;}
+h1,h2,h3,h4,h5,h6 { 
+	font-size:100%; 
+	font-weight:normal;
+}
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+
+
+/* Box slide
+*****************************************************************/
+
+.top-slide { 
+	width:980px; 
+	overflow:hidden; 
+	margin:auto;
+}
+.top-slide .jcarousel-skin-tango {
+    background: #F8F8F8;
+    border: 1px solid #E6E6E6;
+    clear: both;
+	height: 95px;
+}
+.top-slide .jcarousel-skin-tango .jcarousel-container-horizontal { width: 980px;}
+.top-slide .jcarousel-skin-tango .jcarousel-clip { overflow: hidden;}
+.top-slide .jcarousel-skin-tango .jcarousel-clip-horizontal { 
+	width: 100%;
+	padding-left: 18px;
+}
+.top-slide .jcarousel-skin-tango li { 
+	padding: 7px 27px 8px;
+    width: 262px;
+	border-left: 1px solid #fefefe;
+	border-right: 1px solid #e6e6e6;
+}
+.top-slide .jcarousel-skin-tango li:first-child { border-left:0 none;}
+.top-slide .jcarousel-skin-tango .thumb { 
+	display: block;
+	overflow: hidden;
+	float: left; 
+	margin-right: 12px;
+}
+.top-slide .jcarousel-skin-tango .title {
+    color: #222;
+    display: block;
+    font-weight: bold;
+    line-height: 16px;
+    max-height: 49px;
+    overflow: hidden;
+	margin: 1px 0 8px;
+}
+.top-slide .jcarousel-skin-tango .title:hover { text-decoration:underline;}
+.top-slide .jcarousel-skin-tango .tag {
+	font-size:11px;
+	color:white;
+	background: #ae0405;
+	padding: 1px 8px;
+	display:inline-block;
+}
+
+.top-slide .jcarousel-skin-tango .jcarousel-next-horizontal, 
+.top-slide .jcarousel-skin-tango .jcarousel-prev-horizontal {
+	background:url(http://web.archive.org/web/20180324160038im_/http://www.baogiaothong.vn/lib/explus/widget/images/arrow_980x97.png) no-repeat;
+    height: 50px;
+    position: absolute;
+    top: 22px;
+    width: 22px;
+	cursor:pointer;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+.top-slide .jcarousel-skin-tango .jcarousel-prev-horizontal { left:-1px;}
+.top-slide .jcarousel-skin-tango .jcarousel-next-horizontal { 
+	right:1px;
+	background: url("http://web.archive.org/web/20180324160038im_/http://www.baogiaothong.vn/lib/explus/widget/images/arrow_980x97.png") no-repeat scroll -44px 0;
+}
+.top-slide .jcarousel-skin-tango .jcarousel-prev-horizontal:hover { background-position: -22px 0;}
+.top-slide .jcarousel-skin-tango .jcarousel-next-horizontal:hover { background-position: -66px 0;}
+.top-slide .jcarousel-skin-tango .jcarousel-prev-horizontal:active,
+.top-slide .jcarousel-skin-tango .jcarousel-next-horizontal:active { margin-top:1px;}
+
+
+/* Wobble Horizontal */
+@-webkit-keyframes wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.wobble-horizontal {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.wobble-horizontal:hover, .wobble-horizontal:focus, .wobble-horizontal:active {
+  -webkit-animation-name: wobble-horizontal;
+  animation-name: wobble-horizontal;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+/*
+     FILE ARCHIVED ON 16:00:38 Mar 24, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:06:18 Apr 06, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 99.133 (3)
+  esindex: 0.008
+  captures_list: 122.178
+  CDXLines.iter: 16.873 (3)
+  PetaboxLoader3.datanode: 95.108 (5)
+  exclusion.robots: 0.174
+  exclusion.robots.policy: 0.163
+  RedisCDXSource: 2.285
+  PetaboxLoader3.resolve: 102.495 (3)
+  load_resource: 142.518
+*/

@@ -1,0 +1,280 @@
+/*****
+table.tb-tracuu td, h3, .dv-input select, dv-input input, .title_VBPL, table.ds_VBPL td {
+	font-family: Arial;
+	font-size: 12px;
+}
+div.alert {
+    color:Red;
+}
+table.tb-tracuu {
+	border: 1px #e0e0e0 solid;
+	padding: 1px 1px 0px 1px;
+	width:100%;
+}
+table.tb-tracuu td {
+	padding: 3px 6px 3px 6px;
+}
+table.tb-tracuu td.dv-tracuu-title {
+	background-color: #f1f1f1;
+	padding: 6px 10px;
+	font-weight: bold;
+	color: #07458b;
+}
+td.dv-title {
+	width: 130px;
+	text-align: right;
+	font-weight: bold;
+}
+.dv-input {
+	width: 240px;
+	clear:both;
+}
+.dv-input input {
+	width: 240px;
+}
+.dv-input select {
+	width: 240px;
+}
+.dv-input .txtCalendar {
+	width: 100%;
+}
+.title_VBPL {
+	color: #d00;
+	font-weight: bold;
+	padding: 5px 0px;
+}
+div.div-table-ct {
+	_height: 100%;
+	overflow: hidden;
+	padding: 1px;
+}
+table.ds_VBPL, table.table_ct {
+	border-collapse: collapse;
+	width: 100%;
+}
+table.ds_VBPL td, table.table_ct td, table.LacVietSPList-TimKiemTongQuan td {
+	border: 1px #e0e0e0 solid!important;
+	padding: 3px 4px!important;
+	vertical-align:top;
+}
+table.ds_VBPL tr.row_title td{
+	padding:7px 4px!important;
+	text-align:center;
+}
+table.table_ct tr.row_title td {
+	background-color: #f1f0f0;
+	vertical-align: middle;
+	font-weight: bold;
+	color: #000;
+	text-transform:uppercase;
+}
+table.ds_VBPL .row_title td{
+	background-color: #1b517e;
+	vertical-align: middle;
+	font-weight: bold;
+	color: #fff;
+	text-transform:uppercase;
+	border:1px #1b517e solid;
+}
+.row_title img{
+	margin-right:10px;
+}
+table.ds_VBPL td.tt-tile1, table.table_ct td.tt-tile1 {
+	background-color: #f1f1f1;
+	vertical-align: middle;
+	font-weight: bold;
+	color: #000;
+}
+table.ds_VBPL .td_row1 td, table.table_ct .tr_row2 td,
+table.LacVietSPList-TimKiemTongQuan .TimKiemTongQuan-tr1 td{
+	background-color: #ffffff;
+}
+table.ds_VBPL .td_row2 td, table.table_ct .tr_row1 td,
+table.LacVietSPList-TimKiemTongQuan .TimKiemTongQuan-tr2 td {
+	background-color: #f3f3f3;
+}
+table.LacVietSPList-TimKiemTongQuan .TimKiemTongQuan-td2{
+	text-align: center;
+}
+td.tbao {
+	color: #d00!important;
+}
+.td_row1:hover, .td_row2:hover{
+	color:#d00!important;
+	cursor:pointer;
+}
+.title_ct {
+	text-align: left;
+}
+td.DT_TTTHC{
+	width:200px;
+}
+td.HD_CoQuanThucHien{
+	width:120px;
+}
+td.dvc_att{
+	width:88px;
+}
+td.dvc_att div{
+	float:left;
+}
+.htvb_Att_view:hover{
+	color:#d00;
+}
+.dv-page {
+	margin: 6px 0px;
+	overflow: hidden;
+	_height: 100%;
+	background-color: #f1f1f1;
+	border: 1px #e0e0e0 solid;
+	padding: 1px;
+}
+table.table-page td {
+	padding: 8px 4px;
+}
+.td_ct1 {
+	width: 100px;
+	font-weight: bold;
+}
+
+.table_panelVB table td {
+	padding: 5px;
+}
+.table_panelVB .cell1 {
+	font-weight: bold;
+}
+.table_panelVB .cell2 {
+	width:390px;
+}
+.table_panelVB .cell2 input[type=text]{
+	width:380px;
+	border:1px #e3e3e3 solid;
+	padding:2px;
+}
+.table_panelVB .cell2 input[type=file]{
+	height:21px\9;
+}
+.table_panelVB .cell2 textarea{
+	width:383px;
+	border:1px #e3e3e3 solid;
+	padding:2px;
+
+}
+.table_panelVB .cell2_selector {
+	width: 183px;
+	height: 125px;
+	overflow: scroll;
+}
+.table_panelVB .cell2_selector_padding {
+	padding-left: 10px;
+}
+.table_panelVB table td td{
+	border: none;
+	padding: 0px;
+}
+.table_panelVB .cell2_text{
+	width: 100%;
+}
+textarea.cell2_text{
+	height:100px;	
+}
+.cell2 table table a{
+	margin-left:10px;
+	background: url("/web/20180612233740im_/http://sgtvt.daknong.gov.vn/_LAYOUTS/LacVietBio/eofficeimg/Giaodien/NewsCity/DeleteCategory.gif") no-repeat left center;
+	line-height:19px;
+	padding-left:20px;
+}
+td.cell2 a, td.cell2 a:link, td.cell2 a:visited, td.cell2 a:hover{
+	color:#f00;
+}
+td.cell2 table td{
+	padding:3px 0px 0px 0px;
+	color:#666;
+}
+.table_panelVB .cell2 td input[type=text]{
+	width:120px;
+}
+.table_panelVB1 {
+	border-top: 1px #e0e0e0 solid;
+}
+.table_nhapVB select{
+	margin-left:130px;
+	width:150px;
+}
+.table_nhapVB .cell2 select{
+	margin-left:0px;
+}
+.table_nhapVB select, .table_nhapVB input{
+	color:#666;
+}
+#ctl00_m_g_174bd15f_d7ec_4e05_b7de_47eb92ce1376_ctl00_captchaTR td{
+	padding-left:135px;
+}
+#ctl00_m_g_174bd15f_d7ec_4e05_b7de_47eb92ce1376_ctl00_captchaTR td img{
+	height:auto!important;
+}
+.txtCalendar {
+	width:100%;
+}
+.MyCalendar .ajax__calendar_container {padding:0px;border:1px #056bc2 solid;position:absolute;cursor:default;width:170px;font-size:12px;text-align:center;font-family:arial;background-color:#d8ecfa;color: #555;}
+.MyCalendar .ajax__calendar_body {height:139px;width:170px;position:relative;overflow:hidden;margin:auto;}
+.MyCalendar .ajax__calendar_days, .ajax__calendar_months, .ajax__calendar_years {top:0px;left:0px;height:139px;width:170px;position:absolute;text-align:center;margin:0px;}
+.MyCalendar .ajax__calendar_days table td {padding:3px 1px 3px 1px; border-style:none; font-size:12px;}
+.MyCalendar .ajax__calendar_container TABLE td{font-size:12px;font-family:arial}
+.MyCalendar .ajax__calendar_header {height:20px;width:100%;}
+.MyCalendar .ajax__calendar_prev {cursor:pointer;width:15px;height:15px;float:left;background-repeat:no-repeat;background-position:50% 50%;background-image:url(/web/20180612233740im_/http://sgtvt.daknong.gov.vn/SiteAssets/css/<%=WebResource("AjaxControlToolkit.Calendar.arrow-left.gif")%>);}
+.MyCalendar .ajax__calendar_next {cursor:pointer;width:15px;height:15px;float:right;background-repeat:no-repeat;background-position:50% 50%;background-image:url(/web/20180612233740im_/http://sgtvt.daknong.gov.vn/SiteAssets/css/<%=WebResource("AjaxControlToolkit.Calendar.arrow-right.gif")%>);}
+.MyCalendar .ajax__calendar_title {cursor:pointer;font-weight:bold; padding-top:3px;}
+.MyCalendar .ajax__calendar_footer {height:15px;}
+.MyCalendar .ajax__calendar_today {cursor:pointer;padding-top:3px; padding-bottom:3px}
+.MyCalendar .ajax__calendar_dayname {height:17px;width:17px;text-align:right;padding:0 2px; color:black}
+.MyCalendar .ajax__calendar_day {height:17px;width:17px;text-align:center;cursor:pointer;margin:0px;}
+.MyCalendar .ajax__calendar_day:hover {color:#d00; background-color:#FFFFFF}
+.MyCalendar .ajax__calendar_month {height:44px;width:40px;text-align:center;cursor:pointer;overflow:hidden;}
+.MyCalendar .ajax__calendar_month:hover {color:#d00}
+.MyCalendar .ajax__calendar_year {height:44px;width:40px;text-align:center;cursor:pointer;overflow:hidden;}
+.MyCalendar .ajax__calendar_year:hover {color:#d00}
+
+
+.MyCalendar .ajax__calendar .ajax__calendar_container {border:1px solid #646464;background-color:#ffffff;color:#000000;}
+.MyCalendar .ajax__calendar .ajax__calendar_footer {border-top:1px solid #f5f5f5;}
+.MyCalendar .ajax__calendar .ajax__calendar_dayname {border-bottom:1px solid #f5f5f5;}
+.MyCalendar .ajax__calendar .ajax__calendar_day {border:solid 1px #000000;}
+.MyCalendar .ajax__calendar .ajax__calendar_month {border:solid 1px #ffffff;}
+.MyCalendar .ajax__calendar .ajax__calendar_year {border:solid 1px #ffffff;}
+
+.MyCalendar .ajax__calendar .ajax__calendar_active .ajax__calendar_day {background-color:#edf9ff;border-color:#0066cc;color:#0066cc;font-weight:bold;}
+.MyCalendar .ajax__calendar .ajax__calendar_active .ajax__calendar_month {background-color:#edf9ff;border-color:#0066cc;color:#0066cc;font-weight:bold;}
+.MyCalendar .ajax__calendar .ajax__calendar_active .ajax__calendar_year {background-color:#edf9ff;border-color:#0066cc;color:#0066cc;font-weight:bold;}
+
+.MyCalendar .ajax__calendar .ajax__calendar_other .ajax__calendar_day {background-color:#ffffff;border-color:#ffffff;color:#646464;}
+.MyCalendar .ajax__calendar .ajax__calendar_other .ajax__calendar_year {background-color:#ffffff;border-color:#ffffff;color:#646464;}
+
+.MyCalendar .ajax__calendar .ajax__calendar_hover .ajax__calendar_day {background-color:#edf9ff;border-color:#daf2fc;color:#0066cc;}
+.MyCalendar .ajax__calendar .ajax__calendar_hover .ajax__calendar_month {background-color:#edf9ff;border-color:#daf2fc;color:#0066cc;}
+.MyCalendar .ajax__calendar .ajax__calendar_hover .ajax__calendar_year {background-color:#edf9ff;border-color:#daf2fc;color:#0066cc;}
+
+.MyCalendar .ajax__calendar .ajax__calendar_hover .ajax__calendar_title {color:#0066cc;}
+.MyCalendar .ajax__calendar .ajax__calendar_hover .ajax__calendar_today {color:#0066cc;}
+*****/
+/*
+     FILE ARCHIVED ON 23:37:40 Jun 12, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:25:27 Apr 06, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 173.152 (3)
+  esindex: 0.006
+  captures_list: 198.294
+  CDXLines.iter: 14.373 (3)
+  PetaboxLoader3.datanode: 276.136 (5)
+  exclusion.robots: 0.174
+  exclusion.robots.policy: 0.161
+  RedisCDXSource: 7.643
+  PetaboxLoader3.resolve: 63.75 (2)
+  load_resource: 188.827
+*/
