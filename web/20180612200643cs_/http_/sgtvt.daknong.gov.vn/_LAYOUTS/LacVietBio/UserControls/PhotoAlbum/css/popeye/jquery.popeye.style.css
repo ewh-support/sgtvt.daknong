@@ -128,7 +128,7 @@
 }
 
 #ppy1 .ppy-loading {
-    background:     #0c3b3d url(../../../../../../../../../20180719221339im_/http_/sgtvt.daknong.gov.vn/_LAYOUTS/LacVietBio/UserControls/PhotoAlbum/gfx/popeye/loading1.gif) no-repeat center !important;
+    /* background:     #0c3b3d url(../../../../../../../../../20180719221339im_/http_/sgtvt.daknong.gov.vn/_LAYOUTS/LacVietBio/UserControls/PhotoAlbum/gfx/popeye/loading1.gif) no-repeat center !important; */
 }
 
 #ppy1 .ppy-nav {
@@ -162,7 +162,7 @@
     -webkit-border-radius:  5px; 
 }
 
-#ppy1 .ppy-prev {
+/* #ppy1 .ppy-prev {
     width:          22px;
     background:     url(../../../../../../../../../20180719205724im_/http_/sgtvt.daknong.gov.vn/_LAYOUTS/LacVietBio/UserControls/PhotoAlbum/gfx/popeye/prev3.png) no-repeat center;
 }
@@ -180,7 +180,7 @@
 #ppy1 .ppy-switch-compact {
     width:          30px;
     background:     url(../../../../../../../../../20180719212948im_/http_/sgtvt.daknong.gov.vn/_LAYOUTS/LacVietBio/UserControls/PhotoAlbum/gfx/popeye/compact3.png) no-repeat center;
-}
+} */
 
 #ppy1 .ppy-nav a:hover {
     background-color:   #a1c436;

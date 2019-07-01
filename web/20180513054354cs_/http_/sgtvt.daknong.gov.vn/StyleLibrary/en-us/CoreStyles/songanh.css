@@ -115,7 +115,7 @@ a img{
 	padding-left:23px;
 }
 .mn-dangnhap{
-	background: url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/icon-dangnhap.png") no-repeat left 0px;
+	/* background: url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/icon-dangnhap.png") no-repeat left 0px; */
 	padding-left:23px;
 	padding-right:0px!important;
 }
@@ -140,7 +140,7 @@ a img{
 	clear:both;
 	overflow:hidden;
 	height:45px;
-	background: url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/bgDate-Search.png") no-repeat center 0px;
+	/* background: url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/bgDate-Search.png") no-repeat center 0px; */
 }
 /**** Topmenu style.css**/
 .ms-menu{
@@ -166,7 +166,7 @@ ul#topnav li a {
 	font-family:Arial;
 }
 ul#topnav li{
-	background: url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/bgMenuVer.png") no-repeat left center;
+	/* background: url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/bgMenuVer.png") no-repeat left center; */
 	line-height:33px;
 }
 ul#topnav li#firstlist0{
@@ -179,7 +179,7 @@ ul#topnav li.LvSelected + li{
 	display:inline-block;
 }
 .LvSelected .main-level a, .LvSelected .main-level a:hover{
-	background:url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/bg-menu-selected-a.png") no-repeat;
+	/* background:url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/bg-menu-selected-a.png") no-repeat; */
 	background-position:top center;
 	z-index:2;
 }
@@ -187,21 +187,21 @@ ul#topnav li.LvSelected + li{
 	color:#FFFFFF;
 }
 li.LvSelected{
-	background:url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/bg-menu-selected-r.png") repeat-x top left!important;
+	/* background:url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/bg-menu-selected-r.png") repeat-x top left!important; */
 	height:33px;	
 }
 #topnav ul.children{
 	position:absolute;
 	width:167px;
 	z-index:10;
-	background:url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/bg-submenubot.png") no-repeat left bottom;   
+	/* background:url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/bg-submenubot.png") no-repeat left bottom;    */
 	padding-bottom:10px; 
 	margin-left:-4px;   
 }
 .second-list{
 	width:145px;
 	padding:0 9px;
-	background:url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/bg-submenucent.png") repeat-y top left;
+	/* background:url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/bg-submenucent.png") repeat-y top left; */
 }
 #topnav ul.children{
 	display:none!important;
@@ -463,6 +463,7 @@ div.menuF1 a:hover{
 	float:left;
 	margin-left:9px;
 	width:526px;
+	background: #fff;
 }
 /*.snCenter{
 	float:left;
@@ -521,7 +522,7 @@ table.lv_union_table_menuheader{
 	text-transform:uppercase;
 }
 #menu1{
-	background: url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/bg-menu1.png") no-repeat right;
+	/* background: url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/bg-menu1.png") no-repeat right; */
 }
 .union_main_image div.Union_block h2 {
     background: none repeat scroll 0 0 #000000;
@@ -651,7 +652,7 @@ div.union_main_image .Union_desc{
 .lacviet-tabsnews{
 	/* padding:15px 15px; */
 	overflow:hidden;
-	background:#fff url("http://web.archive.org/web/20180612235301im_/http://sgtvt.daknong.gov.vn/imgSonganh/borBox.png") repeat-x left top;
+	/* background:#fff url("http://web.archive.org/web/20180612235301im_/http://sgtvt.daknong.gov.vn/imgSonganh/borBox.png") repeat-x left top; */
 	height:393px;
 	position:relative;
 	margin-right: -2px;
@@ -843,7 +844,7 @@ div.news-tab-li-item a:hover{
 	text-decoration:none;
 }
 .news-tab-xemtiep{
-	background: url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/more.gif") no-repeat right center;
+	/* background: url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/more.gif") no-repeat right center; */
 	padding-right:10px;
 }
 /***Hoi dap**/
@@ -990,7 +991,7 @@ div.news-tab-li-item a:hover{
 	margin:0px 10px 0px 10px;
 	padding: 5px 0 5px;
 	overflow:hidden;
-	background: url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/r-space.gif") repeat-x left top;
+	/* background: url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/r-space.gif") repeat-x left top; */
 }
 .td_moinhat {
     background: url("/img/r-title-cq.png") no-repeat scroll left 0 transparent;
@@ -1281,7 +1282,7 @@ div#ppy1 .ppy-nav{
 }
 .linkweb-cnt{
 	overflow:hidden;
-	background:#fff url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/bg-lienketwebpng.png") no-repeat left top;
+	/* background:#fff url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/bg-lienketwebpng.png") no-repeat left top; */
 	height:90px;
 	text-align:center;
 }
@@ -1478,7 +1479,7 @@ tr.ms-news-header td{
 	border:1px #a7c7d7 solid;
 	padding:15px;
 	overflow:hidden;
-	background:#fff url("http://web.archive.org/web/20180612235301im_/http://sgtvt.daknong.gov.vn/imgSonganh/borBox.png") repeat-x left top;
+	/* background:#fff url("http://web.archive.org/web/20180612235301im_/http://sgtvt.daknong.gov.vn/imgSonganh/borBox.png") repeat-x left top; */
 }
 .allPost .div_header_style1 a{
 	font-size:13px!important;
@@ -1486,7 +1487,7 @@ tr.ms-news-header td{
 .mainDSHD{
 	border:1px #a7c7d7 solid;
 	overflow:hidden;
-	background:#fff url("http://web.archive.org/web/20180612235301im_/http://sgtvt.daknong.gov.vn/imgSonganh/borBox.png") repeat-x left top;
+	/* background:#fff url("http://web.archive.org/web/20180612235301im_/http://sgtvt.daknong.gov.vn/imgSonganh/borBox.png") repeat-x left top; */
 }
 
 .FolderTitle{
@@ -1665,7 +1666,7 @@ td.Other{
 	padding-bottom:7px;
 }
 .tinHT{
-	background: url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/r-space.gif") repeat-x scroll left bottom transparent;
+	/* background: url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/r-space.gif") repeat-x scroll left bottom transparent; */
     overflow: hidden;
     /*padding: 9px 10px;*/
 }
@@ -1684,7 +1685,7 @@ td.Other{
     overflow: hidden;  
     width: 963px;
 	border:1px #a7c7d7 solid;
-	background:#fff url("http://web.archive.org/web/20180612235301im_/http://sgtvt.daknong.gov.vn/imgSonganh/borBox.png") repeat-x left top;
+	/* background:#fff url("http://web.archive.org/web/20180612235301im_/http://sgtvt.daknong.gov.vn/imgSonganh/borBox.png") repeat-x left top; */
 }
 table.dvBlockSearch-tb td{
 	padding:4px;
