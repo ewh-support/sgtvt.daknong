@@ -120,8 +120,8 @@ a img{
 	padding-right:0px!important;
 }
 .logoS{
-	height:191px;
-	background:#FFFFFF url("/img/bgdangnhap.png") repeat-x left top;	
+/* 	height:191px;
+	background:#FFFFFF url("/img/bgdangnhap.png") repeat-x left top;	 */
 }
 .logoS embed{
 	display:none;
