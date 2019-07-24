@@ -139,8 +139,8 @@ a img{
 .dateSearch{
 	clear:both;
 	overflow:hidden;
-	height:45px;
-	/* background: url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/bgDate-Search.png") no-repeat center 0px; */
+	height:30px;
+	background: url("../img/banner/icon/bgDate-Search.png") no-repeat center 0px; 
 }
 /**** Topmenu style.css**/
 .ms-menu{
@@ -396,7 +396,7 @@ div.menuF1 a:hover{
 	overflow:hidden;
 }
 .hLeft{
-	padding: 5px 0px 0px 10px;
+	padding: 5px;
     width: 250px;
 }
 .dCent{
@@ -406,11 +406,9 @@ div.menuF1 a:hover{
 	border:1px #d5d5d5 solid;
 }
 .hCent{
-	float:right;
-	width:455px;
-	padding-right:10px;
-	padding-top:5px;
-	padding-bottom:5px;
+	float: right;
+    width: 466px;
+    padding: 5px 5px 0px 0px;
 }
 .hRight, .dRight,.snRight{
 	float:right;
@@ -433,9 +431,6 @@ div.menuF1 a:hover{
 	width:732px;
 	float:left;
 	margin-top:-25px;
-}
-.hlOBot{
-	padding-top:10px;
 }
 .dLeft2Z{
 	width:230px;
@@ -576,9 +571,14 @@ div.union_main_image img{
 	height:337px;
 	margin-top:8px;
 	margin-left:-5px;
-	border-radius:5px;
-	
-	
+	border-radius:5px;	
+}
+.container_top1{
+    background: url(/img/r-title-cq.png) no-repeat left top;
+    height: 32px;
+    width: 220px!important;
+	line-height: 32px;
+	text-align: center;
 }
 .union_image_thumb div.Union_block h2 a{
 	font-weight:normal;
@@ -650,17 +650,11 @@ div.union_main_image .Union_desc{
 }
 /*** tin chuyen muc - home  **/
 .lacviet-tabsnews{
-	/* padding:15px 15px; */
-	overflow:hidden;
-	/* background:#fff url("http://web.archive.org/web/20180612235301im_/http://sgtvt.daknong.gov.vn/imgSonganh/borBox.png") repeat-x left top; */
-	height:393px;
+	overflow:hidden;	
+	height:auto;
 	position:relative;
-	margin-right: -2px;
-	margin-bottom: 10px;
 	border-radius: 15px;
-	border: 1px solid blue;
-	border-radius: 15px;
-	margin-bottom: 10px;
+	border: 1px solid #80bbd7;
 }
 .hCent .ui-tabs .ui-tabs-nav{
 	padding:0px;
