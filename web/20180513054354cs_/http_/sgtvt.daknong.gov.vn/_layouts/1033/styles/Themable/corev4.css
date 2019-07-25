@@ -1080,7 +1080,7 @@ font-size:1em;
 }
 .ms-WPBody a:link
 {
-/* [ReplaceColor(themeColor:"Hyperlink")] */ color:#0072bc;
+color:#1e4283;
 text-decoration:none;
 }
 .ms-WPBody a:visited{

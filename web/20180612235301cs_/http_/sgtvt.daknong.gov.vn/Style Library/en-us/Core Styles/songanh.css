@@ -261,7 +261,7 @@ span#tP{
 }
 .ms-search{
 	float:right;
-	padding:4px 5px 0px 0px;
+	padding:4px 0px 0px 0px;
 }
 .ms-sbgo a{
 	/*background: url("/web/20180612235301im_/http://sgtvt.daknong.gov.vn/imgSoTTTT/button-search.png") no-repeat;
@@ -1135,13 +1135,12 @@ table.ds_VBPL, table.table_ct {
 	margin-bottom:6px;
 }
 .videobox-title{
-	background: url("../../../../../../20180720022122im_/http_/sgtvt.daknong.gov.vn/imgSonganh/tinvideo-title.png") no-repeat left top;
-	height:29px;
-	width:220px;
-	line-height:29px;	
+	background: url(/img/r-title-cq.png) no-repeat left top;
+    height: 34px;
+    line-height: 34px;
 	position:relative;
 	z-index:3;
-	padding-left:45px;
+	text-align: center;
 }
 .videobox-title a,.videobox-title a:link{
 	color:#fff!important;
