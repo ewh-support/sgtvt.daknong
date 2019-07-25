@@ -1130,13 +1130,12 @@ table.ds_VBPL, table.table_ct {
 	margin-bottom:6px;
 }
 .videobox-title{
-	background: url("../../../../../../20180612235301im_/http%253A/sgtvt.daknong.gov.vn/imgSonganh/tinvideo-title.png") no-repeat left top;
-	height:29px;
-	width:220px;
-	line-height:29px;	
+	background: url(/img/r-title-cq.png) no-repeat left top;
+    height: 34px;
+    line-height: 34px;
 	position:relative;
 	z-index:3;
-	padding-left:45px;
+	text-align: center;
 }
 .videobox-title a,.videobox-title a:link{
 	color:#fff!important;
